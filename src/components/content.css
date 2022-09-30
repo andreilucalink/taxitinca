@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.content {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-container {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.text-container .text {
+  font-weight: 500;
+}
+
+.card {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 30px;
+  width: 90%;
+  margin: 0 auto 50px auto;
+  border-radius: 30px;
+}
+
+.card img {
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.card h3 {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card .car {
+  height: 80px;
+}
+.card a {
+  display: block;
+  text-decoration: none;
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  width: max-content;
+  padding: 20px 40px;
+  font-weight: 600;
+  border-radius: 50px;
+  margin: 20px auto 0 auto;
+}
+
+.card .stars {
+  display: flex;
+  justify-content: center;
+}
+.card .star {
+  height: 20px;
+  width: 20px;
+  margin: 20px 5px 0 5px;
+  display: inline;
+}
