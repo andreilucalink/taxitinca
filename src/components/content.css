@@ -32,7 +32,7 @@
   border-radius: 30px;
 }
 
-.card img {
+.card .profile-img {
   height: 150px;
   border-radius: 50%;
   display: block;
@@ -50,6 +50,8 @@
 
 .card .car {
   height: 80px;
+  margin: auto;
+  display: block;
 }
 .card a {
   display: block;

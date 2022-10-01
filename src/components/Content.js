@@ -3,8 +3,10 @@ import "./content.css";
 
 import tuly from "../img/t.PNG";
 import dode from "../img/d.jpg";
+import lucas from "../img/l.jpg";
 import hyundai from "../img/h.png";
 import opel from "../img/o.webp";
+import vw from "../img/vw.png";
 import star from "../img/s2.png";
 
 const Content = () => {
@@ -18,8 +20,7 @@ const Content = () => {
         <h1>NOI SUNTEM SOLUTIA!</h1>
       </div>
       <div className="card">
-        <img src={dode} alt="dode" />
-
+        <img className="profile-img" src={dode} alt="dode" />
         <div className="stars">
           <img className="star" src={star} alt="star" />
           <img className="star" src={star} alt="star" />
@@ -32,7 +33,7 @@ const Content = () => {
         <a href="tel:0749578088">Comanda TAXI</a>
       </div>
       <div className="card">
-        <img src={tuly} alt="tulica" />
+        <img className="profile-img" src={tuly} alt="tulica" />
         <div className="stars">
           <img className="star" src={star} alt="star" />
           <img className="star" src={star} alt="star" />
@@ -43,6 +44,19 @@ const Content = () => {
         <h3>Alexandru "Țulica" Szilagyi</h3>
         <img src={opel} alt="opel" className="car" />
         <a href="tel:0753549318">Comanda TAXI TURBAT</a>
+      </div>
+      <div className="card">
+        <img className="profile-img" src={lucas} alt="tulica" />
+        <div className="stars">
+          <img className="star" src={star} alt="star" />
+          <img className="star" src={star} alt="star" />
+          <img className="star" src={star} alt="star" />
+          <img className="star" src={star} alt="star" />
+          <img className="star" src={star} alt="star" />
+        </div>
+        <h3>Lucas "Luci" Avram</h3>
+        <img src={vw} alt="opel" className="car" />
+        <a href="tel:0753549318">Comanda TAXI</a>
       </div>
     </div>
   );
