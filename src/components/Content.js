@@ -54,7 +54,7 @@ const Content = () => {
           <img className="star" src={star} alt="star" />
           <img className="star" src={star} alt="star" />
         </div>
-        <h3>Lucas "Luci" Avram</h3>
+        <h3>Lucas "Teo" Avram</h3>
         <img src={vw} alt="opel" className="car" />
         <a href="tel:0753549318">Comanda TAXI</a>
       </div>
